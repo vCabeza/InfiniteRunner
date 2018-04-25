@@ -75,6 +75,7 @@ public class AndroidPlayerController: MonoBehaviour {
             }
         }
 
+        // Uncomment for PC test
         /*if (Input.GetKey(KeyCode.Space) && !isJumping && !isClimable) {            
             isJumping = true;
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
