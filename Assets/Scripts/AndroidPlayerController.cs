@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Firebase.Analytics;
 
 public class AndroidPlayerController: MonoBehaviour {
 
@@ -23,6 +24,7 @@ public class AndroidPlayerController: MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+        new Parameter("param", "testParam");
         animator = GetComponent<Animator>();
         
         isJumping = false;

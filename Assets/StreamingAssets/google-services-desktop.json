@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "731779654762",
+    "firebase_url": "https://carrotrunner-d0d14.firebaseio.com",
+    "project_id": "carrotrunner-d0d14",
+    "storage_bucket": "carrotrunner-d0d14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731779654762:android:167012cf8ecb4b78",
+        "android_client_info": {
+          "package_name": "com.carrotrunner.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731779654762-e6lneoujrsjaqks58nqfu4ejmn3nqm8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNafg8hZmt-VyOde6IgiwYsZ-M5CJGhCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
